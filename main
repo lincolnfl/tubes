@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+    <title>Kantin Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--Navbar-->
+    <nav class="navbar navbar-dark navbar-expand-lg shadow-sm sticky-top" style="background-color: #063;">
+        <div class=" container-fluid d-flex flex-row">
+          <a class="navbar-brand" href="#"><img src="main.png" alt="brand" width="40px" height="40px">Kantin Online</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#login">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#admin">Admin</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--End of Navbar-->
+      <!--Promo Hari Ini-->
+      <div class="container">
+        <div class="row">
+          <div class="col col-7 pt-4 px-4">
+            <img src="test.png" alt="PromoHariIni" width="500" height="300">
+          </div>
+          <div class="col col-5 pt-4 mt-5 mt-2 ">
+            <h2 class="heading">
+              Hello World
+            </h2>
+            <p class="isi-heading">
+              Ini adalah menu dari hari ini. <br>
+              Sosis Bakso Ayam Tubes aaaaa <br>
+              Isikan Lah ya nnti <br>
+              Goodluck <br>
+              Nnti kubagi lagi tugasnya dll <br>
+              Harga : ....
+            </p>
+          </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.esm.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
