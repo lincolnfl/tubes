@@ -32,4 +32,6 @@ Kalo bs sih cari sendiri ya di utube soalnya aku juga begitu kok semua kucari se
 
 Nnti kalo misal ad kesusahan ato apa blg yoo.
 
+Oiya yang mainnya aku blm buat external cssnya soalny pake bootstrap aj td bs, kl mw buat file externalny silahkan ya jgn lupa link kan juga.
 
+Baru kalo mw mudah buat frontendny coba belajar figma, cari aja di utube psti byk videonya.
