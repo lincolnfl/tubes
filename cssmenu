@@ -1,0 +1,80 @@
+.navbar{
+    height: 10vh !important;
+}
+.nav-item .nav-link:hover{
+    color: grey;
+    transition: all ease-in .2s;
+}
+.sidebar{
+    top: 10vh;
+    position: sticky;
+    min-width: 20%;
+    padding: 24px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    height: 90vh;
+}
+.container2{
+    margin: 0px !important;
+    padding: 0px !important;
+    height: 100%;
+    display: flex;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    min-width: 80%;
+}
+.sidebar .desc-main{
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    color: white;
+}
+.sidebar a{
+    text-decoration: none;
+}
+.sidebar .header .list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 0 10px 12px;
+    border-radius: 8px;
+    height: 40px;
+    box-sizing: border-box;
+}
+.sidebar .header .illus{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 22px 0 22px 22px;
+    box-sizing: border-box;
+    object-fit: contain;
+}
+.sidebar .main .items .icon{
+    padding-right: 12px;
+}
+.sidebar .main .items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 0 10px 22px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: white;
+}
+.sidebar .main .items:hover{
+    background: aqua;
+    transition: all ease-in .2s;
+}
+hr {
+    height:3px;
+    border-width:0;
+    background-color:black;
+}
+.sidebar .main .items a{
+    text-decoration: none;
+}
