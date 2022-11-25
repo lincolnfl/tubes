@@ -44,7 +44,7 @@
         <div class="row">
         <div class=" col col-3">
           <!--Sidebar-->
-          <section class="sidebar">
+          <section class="sidebar d-none d-lg-block d-xl-block d-xxl-block">
           <div class="header">
             <div class="list-item">
               <a href="#">
@@ -52,7 +52,7 @@
                 <span class="desc-main">Rawr Harian</span>
               </a>
             </div>
-            <div class="illus">
+            <div class="illus d-none d-lg-block">
               <img src="test.png" alt="header" width="150px" height="100px">
             </div>
           </div>
@@ -83,7 +83,7 @@
       <!--End of Sidebar-->
       <!--Main content-->
         <div class=" col col-12 col-lg-9">
-          <div class="main-content pt-3">
+          <div class="main-content pt-3 px-2">
           <div id="promo">
             <h2>Promo Hari Ini</h2>
             <hr>
