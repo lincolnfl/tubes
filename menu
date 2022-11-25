@@ -82,7 +82,7 @@
       </section>
       <!--End of Sidebar-->
       <!--Main content-->
-        <div class=" col col-9">
+        <div class=" col col-12 col-lg-9">
           <div class="main-content pt-3">
           <div id="promo">
             <h2>Promo Hari Ini</h2>
