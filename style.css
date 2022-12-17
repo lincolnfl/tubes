@@ -1,93 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 body{
     overflow-x: hidden;
+    margin: 0 !important;
 }
 .navbar{
     height: 10vh !important;
-    max-width: 100vw;
+    width: 100vw;
+}
+.navbar .navbar-brand{
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 30px;
+}
+.navbar .navbar-brand img{
+    padding-bottom: 6px;
+}
+.nav-item .nav-link{
+    font-family: 'Cabin', sans-serif;
+    padding-right: 10px;
 }
 .nav-item .nav-link:hover{
+    color: #FFC4C4;
+    transition: all ease-in .2s;
+}
+.nav-item .nav-link p{
+    color: #850E35;
+    background-color: white;
+}
+.top_page{
+    padding-top: 50vh;
+    background: url("img/top.jpg");
+    height: 110vh;
+    width: 100vw;
+    color: white;
+    padding: 2rem;
+}
+.top_text{
+    padding: 30vh;
+}
+.top_page p{
+    font-size: 40px;
+}
+.top_page h2{
+    font-size: 64px;
+    padding-bottom: 100px;
+}
+.judul_top{
+    font-size: 50px;
+}
+.top_page i{
+    font-size: 40px;
+}
+.story .photo{
+    overflow: hidden;
+}
+.container-fluid .story .desc{
+    background-color: rgb(36, 35, 35);
+    color: white;
+}
+
+.best h2{
+    height: 130px;
+}
+.card{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.card img{
+    height: 180px;
+}
+.card-body{
+    font-family: 'Nunito', sans-serif;
+    padding-left: 5px !important;
+}
+.nama-makanan{
+    font-size: 20px;
+    font-weight: 700;
+}
+.harga-awal{
+    text-decoration: line-through;
     color: grey;
-    transition: all ease-in .2s;
+    font-size: 12px;
 }
-.sidebar{
-    top: 10vh;
-    position: sticky;
-    min-width: 20vw;
-    padding: 24px;
+.desc-makanan{
+    color: grey;
+    font-size: 14px;
+}
+.harga-diskon{
+    color : #f38621;
+    font-size: 12px;
+    border-radius: 2px;
+    margin-right: 2px;
+    padding: 3px;
     box-sizing: border-box;
-    background-color: black;
-    color: white;
-    height: 90vh;
+    background-color: rgba(243,134,33,.3);
 }
-.container2{
-    margin: 0px !important;
-    padding: 0px !important;
-    height: 100%;
-    display: flex;
-}
-.main-content{
-    display: flex;
-    flex-direction: column;
-}
-.sidebar .desc-main{
-    font-style: normal;
-    font-weight: 700px;
-    font-size: 18px;
-    line-height: 17px;
-    text-align: center;
+.direct_menu{
+    width: 100px;
+    height: 25px;
+    font-size: 10px;
+    line-height: 10px;
     color: white;
 }
-.sidebar a{
-    text-decoration: none;
+.card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.sidebar .header .list-item{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px 0 10px 12px;
-    border-radius: 8px;
-    height: 40px;
-    box-sizing: border-box;
+.best{
+    background-color: #f7f7f7;
 }
-.sidebar .header .illus{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 22px 0 22px 22px;
-    box-sizing: border-box;
-    object-fit: contain;
+.founders .position{
+    color: grey;
+    font-size: 14px;
 }
-.sidebar .main .items .icon{
-    padding-right: 12px;
+.founders .card img{
+    height: 300px;
 }
-.sidebar .main .items{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px 0 10px 22px;
-    border-radius: 8px;
-    box-sizing: border-box;
+.final_section{
+    background-color: rgb(36, 35, 35);
     color: white;
 }
-.sidebar .main .items:hover{
-    background: aqua;
-    transition: all ease-in .2s;
-}
-hr {
-    height:3px;
-    border-width:0;
-    background-color:black;
-}
-.sidebar .main .items a{
-    text-decoration: none;
-}
-@media (min-width: 576px) {
-    .main-content{
-        max-width: 100vw !important;
-    }
-}
-@media (min-width: 992px) {
-    .main-content{
-        max-width: 80vw;
-    }
+.col .col-7 img{
+    overflow: hidden;
 }
